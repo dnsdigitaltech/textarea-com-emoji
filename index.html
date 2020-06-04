@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emoji</title>
+    <link rel="stylesheet" href="emojionearea.min.css">
+    <script src="jquery-3.5.1.min.js"></script>
+    <script src="emojionearea.min.js"></script>
+</head>
+<body>
+    <textarea id="myTextarea" style="display:none;">Meu texto</textarea>
+    <script>
+        $(document).ready(function(){
+            $("#myTextarea").emojioneArea({
+                pickerPosition: "bottom"
+            });
+        });
+    </script>
+</body>
+</html>
